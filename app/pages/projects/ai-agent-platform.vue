@@ -15,7 +15,7 @@ useSeoMeta({
 
       <h1 class="mt-4 text-4xl font-semibold tracking-tight sm:text-6xl">AI Agent Platform</h1>
 
-      <p class="mt-6 text-xl leading-8 text-neutral-600">
+      <p class="mt-6 text-xl leading-8 text-neutral-700">
         A custom execution layer for AI agents with runtime control, tool calling, workspace context, structured
         artifacts, and persistent knowledge.
       </p>
@@ -33,7 +33,7 @@ useSeoMeta({
             'Nuxt',
           ]"
           :key="tech"
-          class="rounded-full border border-neutral-200 px-3 py-1 text-sm text-neutral-600">
+          class="rounded-full border border-neutral-200 px-3 py-1 text-sm text-neutral-700">
           {{ tech }}
         </span>
       </div>
@@ -57,7 +57,7 @@ useSeoMeta({
         <p class="text-sm font-medium uppercase tracking-widest text-red-800">The idea</p>
       </div>
 
-      <div class="space-y-5 leading-7 text-neutral-600 md:col-span-2">
+      <div class="space-y-5 leading-7 text-neutral-700 md:col-span-2">
         <p>
           I wanted to understand what it takes to build an actual agent system, rather than simply sending a prompt to
           an LLM and calling the result an agent.
@@ -137,7 +137,7 @@ Workspace Knowledge</pre
         :key="item.title"
         class="rounded-2xl border border-neutral-200 p-7">
         <h2 class="text-lg font-semibold">{{ item.title }}</h2>
-        <p class="mt-3 leading-7 text-neutral-600">
+        <p class="mt-3 leading-7 text-neutral-700">
           {{ item.text }}
         </p>
       </div>
@@ -148,7 +148,7 @@ Workspace Knowledge</pre
         <p class="text-sm font-medium uppercase tracking-widest text-red-800">Runtime loop</p>
       </div>
 
-      <div class="space-y-5 leading-7 text-neutral-600 md:col-span-2">
+      <div class="space-y-5 leading-7 text-neutral-700 md:col-span-2">
         <p>Each run creates runtime state and repeatedly asks the LLM for the next action.</p>
 
         <p>
@@ -191,7 +191,7 @@ Workspace Knowledge</pre
         <p class="text-sm font-medium uppercase tracking-widest text-red-800">What I learned</p>
       </div>
 
-      <div class="space-y-5 leading-7 text-neutral-600 md:col-span-2">
+      <div class="space-y-5 leading-7 text-neutral-700 md:col-span-2">
         <p>
           Building an agent system made the distinction between an LLM call and an agent much clearer. The interesting
           engineering work is around execution, contracts, state, tools, persistence, and failure handling.

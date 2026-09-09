@@ -12,9 +12,9 @@ useSeoMeta({
     <section class="border-b border-neutral-200">
       <div
         class="mx-auto grid max-w-5xl grid-cols-2 items-center justify-items-center gap-y-2 px-6 py-3 text-xs font-semibold sm:flex sm:justify-center sm:gap-10 sm:text-sm">
-        <a href="tel:+917419257564" class="text-neutral-600 transition hover:text-[#8B1E1E]"> +91 7419257564 </a>
+        <a href="tel:+917419257564" class="text-neutral-700 transition hover:text-[#8B1E1E]"> +91 7419257564 </a>
 
-        <a href="mailto:iakashsaini9@gmail.com" class="text-neutral-600 transition hover:text-[#8B1E1E]">
+        <a href="mailto:iakashsaini9@gmail.com" class="text-neutral-700 transition hover:text-[#8B1E1E]">
           iakashsaini9@gmail.com
         </a>
 
@@ -22,7 +22,7 @@ useSeoMeta({
           href="https://www.linkedin.com/in/741915-akash-saini/"
           target="_blank"
           rel="noopener noreferrer"
-          class="text-neutral-600 transition hover:text-[#8B1E1E]">
+          class="text-neutral-700 transition hover:text-[#8B1E1E]">
           LinkedIn
         </a>
 
@@ -30,7 +30,7 @@ useSeoMeta({
           href="https://github.com/741915akkash/idea-validator"
           target="_blank"
           rel="noopener noreferrer"
-          class="text-neutral-600 transition hover:text-[#8B1E1E]">
+          class="text-neutral-700 transition hover:text-[#8B1E1E]">
           GitHub
         </a>
       </div>
@@ -47,7 +47,7 @@ useSeoMeta({
           I build and ship AI-powered products end-to-end.
         </h1>
 
-        <p class="mt-7 max-w-2xl text-lg leading-8 text-neutral-600">
+        <p class="mt-7 max-w-2xl text-lg leading-8 text-neutral-700">
           I work across frontend, backend, databases, infrastructure, and AI systems — turning ideas into working
           products.
         </p>
@@ -79,26 +79,26 @@ useSeoMeta({
         <div class="mt-12 grid gap-8 sm:grid-cols-2">
           <div>
             <h3 class="font-semibold">Full-Stack Products</h3>
-            <p class="mt-2 leading-7 text-neutral-600">Frontend, APIs, databases, product workflows, and deployment.</p>
+            <p class="mt-2 leading-7 text-neutral-700">Frontend, APIs, databases, product workflows, and deployment.</p>
           </div>
 
           <div>
             <h3 class="font-semibold">AI Systems</h3>
-            <p class="mt-2 leading-7 text-neutral-600">
+            <p class="mt-2 leading-7 text-neutral-700">
               LLM integrations, embeddings, RAG, AI workflows, and automation.
             </p>
           </div>
 
           <div>
             <h3 class="font-semibold">Agent Systems</h3>
-            <p class="mt-2 leading-7 text-neutral-600">
+            <p class="mt-2 leading-7 text-neutral-700">
               Tool calling, execution loops, context, persistence, and reusable agent infrastructure.
             </p>
           </div>
 
           <div>
             <h3 class="font-semibold">Automation</h3>
-            <p class="mt-2 leading-7 text-neutral-600">
+            <p class="mt-2 leading-7 text-neutral-700">
               Background workers, scheduled workflows, integrations, and data-processing pipelines.
             </p>
           </div>
@@ -114,7 +114,7 @@ useSeoMeta({
 
           <h2 class="mt-3 text-3xl font-semibold tracking-tight">Comfortable across the stack.</h2>
 
-          <p class="mt-5 leading-7 text-neutral-600">
+          <p class="mt-5 leading-7 text-neutral-700">
             I learn new technologies by building with them. My focus is understanding the underlying engineering
             problems, not being tied to one framework.
           </p>
@@ -123,34 +123,34 @@ useSeoMeta({
         <div class="mt-10 space-y-4 text-sm">
           <div class="flex gap-4">
             <span class="w-36 shrink-0 font-medium">Frontend</span>
-            <span class="text-neutral-600"> Nuxt.js · Vue.js · Vite · Tailwind CSS · Axios </span>
+            <span class="text-neutral-700"> Nuxt.js · Vue.js · Vite · Tailwind CSS · Axios </span>
           </div>
 
           <div class="flex gap-4">
             <span class="w-36 shrink-0 font-medium">Backend</span>
-            <span class="text-neutral-600"> Node.js · Express.js · REST APIs </span>
+            <span class="text-neutral-700"> Node.js · Express.js · REST APIs </span>
           </div>
 
           <div class="flex gap-4">
             <span class="w-36 shrink-0 font-medium">Database</span>
-            <span class="text-neutral-600"> PostgreSQL · Supabase · MongoDB </span>
+            <span class="text-neutral-700"> PostgreSQL · Supabase · MongoDB </span>
           </div>
 
           <div class="flex gap-4">
             <span class="w-36 shrink-0 font-medium">AI & Agent Systems</span>
-            <span class="text-neutral-600">
+            <span class="text-neutral-700">
               OpenAI API · Ollama · Agent Loops · Tool Calling · Agent Memory · pgvector
             </span>
           </div>
 
           <div class="flex gap-4">
             <span class="w-36 shrink-0 font-medium">Automation & Runtime</span>
-            <span class="text-neutral-600"> n8n · PM2 · RSS Pipelines · Background Workers </span>
+            <span class="text-neutral-700"> n8n · PM2 · RSS Pipelines · Background Workers </span>
           </div>
 
           <div class="flex gap-4">
             <span class="w-36 shrink-0 font-medium">Cloud & DevOps</span>
-            <span class="text-neutral-600">
+            <span class="text-neutral-700">
               AWS · Docker · Terraform · Git · GitHub · Linux · WSL2 · Vercel · Railway
             </span>
           </div>
@@ -168,7 +168,7 @@ useSeoMeta({
             <h2 class="mt-3 text-3xl font-semibold tracking-tight">Things I've actually built.</h2>
           </div>
 
-          <NuxtLink to="/projects" class="hidden text-sm font-medium text-neutral-600 hover:text-black sm:block">
+          <NuxtLink to="/projects" class="hidden text-sm font-medium text-neutral-700 hover:text-black sm:block">
             View all →
           </NuxtLink>
         </div>
@@ -219,7 +219,7 @@ useSeoMeta({
         <div class="mt-12 grid gap-8 sm:grid-cols-2">
           <div>
             <h3 class="font-semibold">Independent Ownership</h3>
-            <p class="mt-2 leading-7 text-neutral-600">
+            <p class="mt-2 leading-7 text-neutral-700">
               I like owning problems from idea through implementation and deployment rather than working only on
               isolated pieces.
             </p>
@@ -227,7 +227,7 @@ useSeoMeta({
 
           <div>
             <h3 class="font-semibold">Fast Learner</h3>
-            <p class="mt-2 leading-7 text-neutral-600">
+            <p class="mt-2 leading-7 text-neutral-700">
               When I encounter unfamiliar technology, I prefer building something real with it and learning through
               implementation.
             </p>
@@ -235,14 +235,14 @@ useSeoMeta({
 
           <div>
             <h3 class="font-semibold">Systems Thinking</h3>
-            <p class="mt-2 leading-7 text-neutral-600">
+            <p class="mt-2 leading-7 text-neutral-700">
               I think about how frontend, backend, data, infrastructure, and AI components work together as one system.
             </p>
           </div>
 
           <div>
             <h3 class="font-semibold">0→1 Product Development</h3>
-            <p class="mt-2 leading-7 text-neutral-600">
+            <p class="mt-2 leading-7 text-neutral-700">
               I bias toward getting a working product shipped, learning from it, and improving it rather than
               over-planning the first version.
             </p>
@@ -250,14 +250,14 @@ useSeoMeta({
 
           <div>
             <h3 class="font-semibold">Problem Solver</h3>
-            <p class="mt-2 leading-7 text-neutral-600">
+            <p class="mt-2 leading-7 text-neutral-700">
               I enjoy breaking ambiguous problems into smaller systems and figuring out the implementation as I go.
             </p>
           </div>
 
           <div>
             <h3 class="font-semibold">Shipping Mindset</h3>
-            <p class="mt-2 leading-7 text-neutral-600">
+            <p class="mt-2 leading-7 text-neutral-700">
               I'm comfortable researching, experimenting, debugging, and finding a path forward without needing every
               step predefined.
             </p>
@@ -294,9 +294,9 @@ useSeoMeta({
         <div class="rounded-2xl border border-neutral-200 bg-neutral-50 px-6 py-12 text-center sm:px-12">
           <h2 class="text-3xl font-semibold tracking-tight">Looking for an early-stage engineer?</h2>
 
-          <p class="mx-auto mt-4 max-w-xl leading-7 text-neutral-600">
-            I'm interested in teams where I can take ownership, build end-to-end, and work on difficult product and
-            engineering problems.
+          <p class="mx-auto mt-4 max-w-xl leading-7 text-neutral-700">
+            I’m looking for a team where I can take ownership, build end-to-end, move quickly, and help turn ideas into
+            shipped products.
           </p>
 
           <a

@@ -16,7 +16,7 @@ useSeoMeta({
 
       <h1 class="mt-4 text-4xl font-semibold tracking-tight sm:text-6xl">GoLaunchScall</h1>
 
-      <p class="mt-6 text-xl leading-8 text-neutral-600">
+      <p class="mt-6 text-xl leading-8 text-neutral-700">
         A startup validation platform that turns founder interviews into structured evidence, analysis, and actionable
         decisions.
       </p>
@@ -25,7 +25,7 @@ useSeoMeta({
         <span
           v-for="tech in ['Nuxt', 'Vue', 'Node.js', 'PostgreSQL', 'REST APIs', 'OpenAI', 'pgvector', 'Docker']"
           :key="tech"
-          class="rounded-full border border-neutral-200 px-3 py-1 text-sm text-neutral-600">
+          class="rounded-full border border-neutral-200 px-3 py-1 text-sm text-neutral-700">
           {{ tech }}
         </span>
       </div>
@@ -58,7 +58,7 @@ useSeoMeta({
         <p class="text-sm font-medium uppercase tracking-widest text-red-800">Overview</p>
       </div>
 
-      <div class="space-y-5 text-neutral-600 leading-7 md:col-span-2">
+      <div class="space-y-5 text-neutral-700 leading-7 md:col-span-2">
         <p>
           GoLaunchScall is a product I built to help founders systematically validate startup ideas instead of relying
           on intuition alone.
@@ -83,7 +83,7 @@ useSeoMeta({
         <h2 class="mt-3 text-2xl font-semibold tracking-tight">From vague ideas to structured evidence</h2>
       </div>
 
-      <div class="space-y-5 text-neutral-600 leading-7 md:col-span-2">
+      <div class="space-y-5 text-neutral-700 leading-7 md:col-span-2">
         <p>
           Early-stage validation often becomes a collection of notes, conversations, assumptions, and disconnected
           research.
@@ -131,7 +131,7 @@ useSeoMeta({
           class="rounded-2xl border border-neutral-200 p-6">
           <span class="text-sm text-red-800">0{{ index + 1 }}</span>
           <h3 class="mt-4 font-semibold">{{ item.title }}</h3>
-          <p class="mt-2 text-sm leading-6 text-neutral-600">
+          <p class="mt-2 text-sm leading-6 text-neutral-700">
             {{ item.text }}
           </p>
         </div>
@@ -148,7 +148,7 @@ useSeoMeta({
       <div class="space-y-8 md:col-span-2">
         <div>
           <h3 class="font-semibold">Frontend architecture</h3>
-          <p class="mt-2 leading-7 text-neutral-600">
+          <p class="mt-2 leading-7 text-neutral-700">
             Nuxt pages are backed by composables and Pinia state. Quiz navigation, lifecycle state, answers, revisions,
             and workspace state are coordinated without putting all application logic inside individual pages.
           </p>
@@ -156,7 +156,7 @@ useSeoMeta({
 
         <div>
           <h3 class="font-semibold">Nitro API layer</h3>
-          <p class="mt-2 leading-7 text-neutral-600">
+          <p class="mt-2 leading-7 text-neutral-700">
             Server routes handle lifecycle operations, answer persistence, access checks, and database interaction. The
             frontend communicates with the backend through explicit API contracts.
           </p>
@@ -164,7 +164,7 @@ useSeoMeta({
 
         <div>
           <h3 class="font-semibold">Workspace model</h3>
-          <p class="mt-2 leading-7 text-neutral-600">
+          <p class="mt-2 leading-7 text-neutral-700">
             The workspace acts as a persistent boundary for quizzes, artifacts, tasks, interviews, evidence, and agent
             runs. This became the foundation for the later agent architecture.
           </p>
@@ -172,7 +172,7 @@ useSeoMeta({
 
         <div>
           <h3 class="font-semibold">AI-assisted research</h3>
-          <p class="mt-2 leading-7 text-neutral-600">
+          <p class="mt-2 leading-7 text-neutral-700">
             Research workflows can use existing workspace knowledge and produce structured artifacts such as market
             research and competitor analysis.
           </p>
@@ -209,7 +209,7 @@ Workspace Knowledge</pre
         <p class="text-sm font-medium uppercase tracking-widest text-red-800">What I learned</p>
       </div>
 
-      <div class="space-y-5 leading-7 text-neutral-600 md:col-span-2">
+      <div class="space-y-5 leading-7 text-neutral-700 md:col-span-2">
         <p>
           The hardest part wasn't building individual features. It was designing boundaries between frontend state,
           APIs, persistence, validation logic, AI workflows, and workspace knowledge.

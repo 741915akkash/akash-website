@@ -25,7 +25,7 @@ defineProps({
       {{ title }}
     </h3>
 
-    <p class="mt-2 leading-7 text-neutral-600">
+    <p class="mt-2 leading-7 text-neutral-700">
       {{ description }}
     </p>
 

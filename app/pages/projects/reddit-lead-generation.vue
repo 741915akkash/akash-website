@@ -16,7 +16,7 @@ useSeoMeta({
 
       <h1 class="mt-4 text-4xl font-semibold tracking-tight sm:text-6xl">Reddit Lead Generation</h1>
 
-      <p class="mt-6 text-xl leading-8 text-neutral-600">
+      <p class="mt-6 text-xl leading-8 text-neutral-700">
         An automated pipeline that discovers Reddit conversations, scores opportunities with local LLMs, analyzes
         patterns, and turns relevant signals into actionable leads.
       </p>
@@ -35,7 +35,7 @@ useSeoMeta({
             'Background Workers',
           ]"
           :key="tech"
-          class="rounded-full border border-neutral-200 px-3 py-1 text-sm text-neutral-600">
+          class="rounded-full border border-neutral-200 px-3 py-1 text-sm text-neutral-700">
           {{ tech }}
         </span>
       </div>
@@ -68,7 +68,7 @@ useSeoMeta({
         <p class="text-sm font-medium uppercase tracking-widest text-red-800">Overview</p>
       </div>
 
-      <div class="space-y-5 leading-7 text-neutral-600 md:col-span-2">
+      <div class="space-y-5 leading-7 text-neutral-700 md:col-span-2">
         <p>
           I built this system to automatically find useful conversations on Reddit instead of manually searching through
           communities for potential customers or opportunities.
@@ -137,7 +137,7 @@ Reddit Sources
         <h2 class="mt-3 text-2xl font-semibold tracking-tight">Collecting signals from Reddit</h2>
       </div>
 
-      <div class="space-y-5 leading-7 text-neutral-600 md:col-span-2">
+      <div class="space-y-5 leading-7 text-neutral-700 md:col-span-2">
         <p>The first version uses Reddit RSS feeds to continuously synchronize posts from configured subreddits.</p>
 
         <p>
@@ -161,7 +161,7 @@ Reddit Sources
         <h2 class="mt-3 text-2xl font-semibold tracking-tight">Filtering noise before deeper analysis</h2>
       </div>
 
-      <div class="space-y-5 leading-7 text-neutral-600 md:col-span-2">
+      <div class="space-y-5 leading-7 text-neutral-700 md:col-span-2">
         <p>
           Reddit produces a large amount of content, so sending everything through expensive downstream processing would
           be wasteful.
@@ -204,7 +204,7 @@ Low Relevance → Ignore / defer</pre
         <h2 class="mt-3 text-2xl font-semibold tracking-tight">Turning posts into structured intelligence</h2>
       </div>
 
-      <div class="space-y-5 leading-7 text-neutral-600 md:col-span-2">
+      <div class="space-y-5 leading-7 text-neutral-700 md:col-span-2">
         <p>The analysis layer is split into independent modules rather than one large prompt.</p>
 
         <div class="grid gap-3 sm:grid-cols-2">
@@ -239,7 +239,7 @@ Low Relevance → Ignore / defer</pre
         <h2 class="mt-3 text-2xl font-semibold tracking-tight">Separating ingestion from processing</h2>
       </div>
 
-      <div class="space-y-5 leading-7 text-neutral-600 md:col-span-2">
+      <div class="space-y-5 leading-7 text-neutral-700 md:col-span-2">
         <p>
           As processing became heavier, I moved work into dedicated background workers rather than making ingestion
           perform everything synchronously.
@@ -286,7 +286,7 @@ Low Relevance → Ignore / defer</pre
             {{ item.title }}
           </h3>
 
-          <p class="mt-2 text-sm leading-6 text-neutral-600">
+          <p class="mt-2 text-sm leading-6 text-neutral-700">
             {{ item.text }}
           </p>
         </div>
@@ -301,7 +301,7 @@ Low Relevance → Ignore / defer</pre
         <h2 class="mt-3 text-2xl font-semibold tracking-tight">From Reddit leads to a broader job pipeline</h2>
       </div>
 
-      <div class="space-y-5 leading-7 text-neutral-600 md:col-span-2">
+      <div class="space-y-5 leading-7 text-neutral-700 md:col-span-2">
         <p>
           The original system was focused on discovering potential leads from Reddit. I later extended the same
           processing ideas into a job ingestion and screening pipeline.
@@ -323,7 +323,7 @@ Low Relevance → Ignore / defer</pre
         <p class="text-sm font-medium uppercase tracking-widest text-red-800">Dashboard</p>
       </div>
 
-      <div class="space-y-5 leading-7 text-neutral-600 md:col-span-2">
+      <div class="space-y-5 leading-7 text-neutral-700 md:col-span-2">
         <p>The pipeline has a Nuxt-based frontend for inspecting processed data and filtering results.</p>
 
         <p>
@@ -363,7 +363,7 @@ Low Relevance → Ignore / defer</pre
             {{ item.title }}
           </h2>
 
-          <p class="mt-3 leading-7 text-neutral-600">
+          <p class="mt-3 leading-7 text-neutral-700">
             {{ item.text }}
           </p>
         </div>
@@ -376,7 +376,7 @@ Low Relevance → Ignore / defer</pre
         <p class="text-sm font-medium uppercase tracking-widest text-red-800">What I learned</p>
       </div>
 
-      <div class="space-y-5 leading-7 text-neutral-600 md:col-span-2">
+      <div class="space-y-5 leading-7 text-neutral-700 md:col-span-2">
         <p>
           The main lesson was that AI automation becomes much more useful when it is treated as a systems problem rather
           than a prompt-engineering problem.

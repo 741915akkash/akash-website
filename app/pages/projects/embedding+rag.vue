@@ -14,7 +14,7 @@ useSeoMeta({
 
       <h1 class="mt-4 text-4xl font-semibold tracking-tight sm:text-6xl">Embeddings + RAG</h1>
 
-      <p class="mt-6 text-xl leading-8 text-neutral-600">
+      <p class="mt-6 text-xl leading-8 text-neutral-700">
         A semantic retrieval system that turns structured research knowledge into reusable context for AI-powered
         workflows.
       </p>
@@ -30,7 +30,7 @@ useSeoMeta({
             'Semantic Search',
           ]"
           :key="tech"
-          class="rounded-full border border-neutral-200 px-3 py-1 text-sm text-neutral-600">
+          class="rounded-full border border-neutral-200 px-3 py-1 text-sm text-neutral-700">
           {{ tech }}
         </span>
       </div>
@@ -54,7 +54,7 @@ useSeoMeta({
         <p class="text-sm font-medium uppercase tracking-widest text-red-800">Overview</p>
       </div>
 
-      <div class="space-y-5 leading-7 text-neutral-600 md:col-span-2">
+      <div class="space-y-5 leading-7 text-neutral-700 md:col-span-2">
         <p>
           I built a retrieval layer so previously generated and validated knowledge could be reused instead of asking
           the model to rediscover the same information every time.
@@ -100,7 +100,7 @@ Research / Structured Knowledge
         <h2 class="mt-3 text-2xl font-semibold tracking-tight">Turning meaning into searchable vectors</h2>
       </div>
 
-      <div class="space-y-5 leading-7 text-neutral-600 md:col-span-2">
+      <div class="space-y-5 leading-7 text-neutral-700 md:col-span-2">
         <p>
           The system uses OpenAI's
           <code class="rounded bg-neutral-100 px-1.5 py-0.5 text-sm"> text-embedding-3-small </code>
@@ -142,7 +142,7 @@ const embedding = response.data[0].embedding</pre
         :key="item.title"
         class="rounded-2xl border border-neutral-200 p-7">
         <h2 class="font-semibold">{{ item.title }}</h2>
-        <p class="mt-3 text-sm leading-6 text-neutral-600">
+        <p class="mt-3 text-sm leading-6 text-neutral-700">
           {{ item.text }}
         </p>
       </div>
@@ -153,7 +153,7 @@ const embedding = response.data[0].embedding</pre
         <p class="text-sm font-medium uppercase tracking-widest text-red-800">Why PostgreSQL?</p>
       </div>
 
-      <div class="space-y-5 leading-7 text-neutral-600 md:col-span-2">
+      <div class="space-y-5 leading-7 text-neutral-700 md:col-span-2">
         <p>
           Keeping vector search inside PostgreSQL meant the semantic layer could live beside the application's existing
           relational data rather than introducing a completely separate storage system.
@@ -171,7 +171,7 @@ const embedding = response.data[0].embedding</pre
         <p class="text-sm font-medium uppercase tracking-widest text-red-800">What I learned</p>
       </div>
 
-      <div class="space-y-5 leading-7 text-neutral-600 md:col-span-2">
+      <div class="space-y-5 leading-7 text-neutral-700 md:col-span-2">
         <p>
           RAG is not just “put text into a vector database.” The useful part is designing what should become knowledge,
           how it is represented, how it is filtered, and how the retrieved result fits into the larger application

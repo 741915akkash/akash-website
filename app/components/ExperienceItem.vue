@@ -40,7 +40,7 @@ defineProps({
       </p>
     </div>
 
-    <p class="mt-4 max-w-2xl text-sm leading-6 text-neutral-600">
+    <p class="mt-4 max-w-2xl text-sm leading-6 text-neutral-700">
       {{ description }}
     </p>
   </article>

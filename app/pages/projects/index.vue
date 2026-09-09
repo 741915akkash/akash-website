@@ -12,7 +12,7 @@ useSeoMeta({
 
       <h1 class="mt-3 text-4xl font-semibold tracking-tight sm:text-5xl">Things I've built.</h1>
 
-      <p class="mt-5 text-lg leading-8 text-neutral-600">
+      <p class="mt-5 text-lg leading-8 text-neutral-700">
         Products, AI systems, automation workflows, and experiments built across the stack.
       </p>
     </div>

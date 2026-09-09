@@ -16,7 +16,7 @@ useSeoMeta({
 
       <h1 class="mt-4 text-4xl font-semibold tracking-tight sm:text-6xl">Next.js Dashboard (demo)</h1>
 
-      <p class="mt-6 text-xl leading-8 text-neutral-600">
+      <p class="mt-6 text-xl leading-8 text-neutral-700">
         A responsive business dashboard built with Next.js App Router, TypeScript, Tailwind CSS, server-side data
         access, and CRUD workflows.
       </p>
@@ -33,7 +33,7 @@ useSeoMeta({
             'PostgreSQL',
           ]"
           :key="tech"
-          class="rounded-full border border-neutral-200 px-3 py-1 text-sm text-neutral-600">
+          class="rounded-full border border-neutral-200 px-3 py-1 text-sm text-neutral-700">
           {{ tech }}
         </span>
       </div>
@@ -66,7 +66,7 @@ useSeoMeta({
         <p class="text-sm font-medium uppercase tracking-widest text-red-800">Overview</p>
       </div>
 
-      <div class="space-y-5 leading-7 text-neutral-600 md:col-span-2">
+      <div class="space-y-5 leading-7 text-neutral-700 md:col-span-2">
         <p>This project is a business dashboard application built with Next.js and the App Router.</p>
 
         <p>
@@ -122,7 +122,7 @@ Next.js App Router
         <h2 class="mt-3 text-2xl font-semibold tracking-tight">Building a real application shell</h2>
       </div>
 
-      <div class="space-y-5 leading-7 text-neutral-600 md:col-span-2">
+      <div class="space-y-5 leading-7 text-neutral-700 md:col-span-2">
         <p>The dashboard is organized around a persistent layout with navigation and separate application sections.</p>
 
         <p>
@@ -143,7 +143,7 @@ Next.js App Router
         <p class="text-sm font-medium uppercase tracking-widest text-red-800">Customers</p>
       </div>
 
-      <div class="space-y-5 leading-7 text-neutral-600 md:col-span-2">
+      <div class="space-y-5 leading-7 text-neutral-700 md:col-span-2">
         <p>
           Customer management is implemented as a dedicated dashboard section with a reusable table component and
           supporting data layer.
@@ -164,7 +164,7 @@ Next.js App Router
         <h2 class="mt-3 text-2xl font-semibold tracking-tight">CRUD workflow</h2>
       </div>
 
-      <div class="space-y-5 leading-7 text-neutral-600 md:col-span-2">
+      <div class="space-y-5 leading-7 text-neutral-700 md:col-span-2">
         <p>The invoice section demonstrates a more complete application workflow than a read-only dashboard.</p>
 
         <p>
@@ -232,7 +232,7 @@ Next.js App Router
             {{ item.title }}
           </h2>
 
-          <p class="mt-3 text-sm leading-6 text-neutral-600">
+          <p class="mt-3 text-sm leading-6 text-neutral-700">
             {{ item.text }}
           </p>
         </div>
@@ -247,7 +247,7 @@ Next.js App Router
         <h2 class="mt-3 text-2xl font-semibold tracking-tight">Keeping data operations separate from UI</h2>
       </div>
 
-      <div class="space-y-5 leading-7 text-neutral-600 md:col-span-2">
+      <div class="space-y-5 leading-7 text-neutral-700 md:col-span-2">
         <p>The application separates the UI layer from data retrieval and mutation logic.</p>
 
         <p>
@@ -285,7 +285,7 @@ Next.js App Router
           {{ item.title }}
         </h2>
 
-        <p class="mt-3 text-sm leading-6 text-neutral-600">
+        <p class="mt-3 text-sm leading-6 text-neutral-700">
           {{ item.text }}
         </p>
       </div>
@@ -297,7 +297,7 @@ Next.js App Router
         <p class="text-sm font-medium uppercase tracking-widest text-red-800">What I learned</p>
       </div>
 
-      <div class="space-y-5 leading-7 text-neutral-600 md:col-span-2">
+      <div class="space-y-5 leading-7 text-neutral-700 md:col-span-2">
         <p>
           This project gave me practical experience with Next.js's App Router and its approach to structuring full-stack
           React applications.

@@ -15,7 +15,7 @@ useSeoMeta({
 
       <h1 class="mt-4 text-4xl font-semibold tracking-tight sm:text-6xl">CRM</h1>
 
-      <p class="mt-6 text-xl leading-8 text-neutral-600">
+      <p class="mt-6 text-xl leading-8 text-neutral-700">
         A custom CRM for managing contacts, pipelines, stages, activities, tasks, notes, and outreach sequences.
       </p>
 
@@ -23,7 +23,7 @@ useSeoMeta({
         <span
           v-for="tech in ['Nuxt', 'Vue', 'Node.js', 'PostgreSQL', 'REST APIs', 'Sequences', 'Background Jobs']"
           :key="tech"
-          class="rounded-full border border-neutral-200 px-3 py-1 text-sm text-neutral-600">
+          class="rounded-full border border-neutral-200 px-3 py-1 text-sm text-neutral-700">
           {{ tech }}
         </span>
       </div>
@@ -55,7 +55,7 @@ useSeoMeta({
         <p class="text-sm font-medium uppercase tracking-widest text-red-800">Overview</p>
       </div>
 
-      <div class="space-y-5 leading-7 text-neutral-600 md:col-span-2">
+      <div class="space-y-5 leading-7 text-neutral-700 md:col-span-2">
         <p>
           I built a CRM as part of GoLaunchScall to manage the people and organizations involved in customer discovery
           and outreach.
@@ -126,7 +126,7 @@ Follow-up</pre
         :key="item.title"
         class="rounded-2xl border border-neutral-200 p-7">
         <h2 class="text-lg font-semibold">{{ item.title }}</h2>
-        <p class="mt-3 leading-7 text-neutral-600">
+        <p class="mt-3 leading-7 text-neutral-700">
           {{ item.text }}
         </p>
       </div>
@@ -139,7 +139,7 @@ Follow-up</pre
         <h2 class="mt-3 text-2xl font-semibold tracking-tight">Modeling workflows instead of screens</h2>
       </div>
 
-      <div class="space-y-5 leading-7 text-neutral-600 md:col-span-2">
+      <div class="space-y-5 leading-7 text-neutral-700 md:col-span-2">
         <p>
           One of the more interesting parts of the CRM was deciding which concepts deserved their own persistent
           entities.
@@ -187,7 +187,7 @@ Sequence Steps</pre
         <p class="text-sm font-medium uppercase tracking-widest text-red-800">What I learned</p>
       </div>
 
-      <div class="space-y-5 leading-7 text-neutral-600 md:col-span-2">
+      <div class="space-y-5 leading-7 text-neutral-700 md:col-span-2">
         <p>
           Building a CRM showed me how quickly apparently simple CRUD features become workflow and data-model problems.
         </p>
