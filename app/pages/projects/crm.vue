@@ -50,6 +50,16 @@ useSeoMeta({
       </div>
     </section>
 
+    <!-- Product Screenshot -->
+    <section class="mt-12">
+      <a href="https://golaunchscall.com/crm" target="_blank" rel="noopener noreferrer" class="group block">
+        <img
+          src="/images/golaunchscall-crm.png"
+          alt="GoLaunchScall CRM"
+          class="w-full rounded-2xl border border-neutral-200 shadow-sm transition duration-300 group-hover:-translate-y-1 group-hover:shadow-lg" />
+      </a>
+    </section>
+
     <section class="mt-24 grid gap-12 border-t border-neutral-200 pt-12 md:grid-cols-3">
       <div>
         <p class="text-sm font-medium uppercase tracking-widest text-red-800">Overview</p>
