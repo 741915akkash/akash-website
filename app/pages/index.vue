@@ -123,7 +123,7 @@ useSeoMeta({
         <div class="mt-10 space-y-4 text-sm">
           <div class="flex gap-4">
             <span class="w-36 shrink-0 font-medium">Frontend</span>
-            <span class="text-neutral-700"> Nuxt.js · Vue.js · Vite · Tailwind CSS · Axios </span>
+            <span class="text-neutral-700"> Nuxt.js/Vue · Next.js/React· Tailwind CSS · Axios </span>
           </div>
 
           <div class="flex gap-4">
