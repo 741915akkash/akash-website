@@ -133,7 +133,7 @@ useSeoMeta({
 
           <div class="flex gap-4">
             <span class="w-36 shrink-0 font-medium">Database</span>
-            <span class="text-neutral-700"> PostgreSQL · Supabase · MongoDB </span>
+            <span class="text-neutral-700"> PostgreSQL · Supabase </span>
           </div>
 
           <div class="flex gap-4">
@@ -145,7 +145,7 @@ useSeoMeta({
 
           <div class="flex gap-4">
             <span class="w-36 shrink-0 font-medium">Automation & Runtime</span>
-            <span class="text-neutral-700"> n8n · PM2 · RSS Pipelines · Background Workers </span>
+            <span class="text-neutral-700"> PM2 · RSS Pipelines · Background Workers </span>
           </div>
 
           <div class="flex gap-4">
