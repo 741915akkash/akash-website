@@ -19,7 +19,7 @@ const links = [
 </script>
 
 <template>
-  <header class="border-b border-neutral-200">
+  <header class="sticky top-0 z-50 border-b border-neutral-200 bg-white">
     <nav class="mx-auto flex max-w-5xl items-center justify-between px-6 py-5">
       <NuxtLink
         to="/"
