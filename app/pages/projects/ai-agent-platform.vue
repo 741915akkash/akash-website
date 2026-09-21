@@ -13,7 +13,7 @@ useSeoMeta({
 
       <p class="mt-10 text-sm font-medium uppercase tracking-widest text-red-800">AI Infrastructure</p>
 
-      <h1 class="mt-4 text-4xl font-semibold tracking-tight sm:text-6xl">AI Agent Platform</h1>
+      <h1 class="mt-4 text-4xl font-semibold tracking-tight sm:text-6xl">AI Agent Platform (work in progress)</h1>
 
       <p class="mt-6 text-xl leading-8 text-neutral-700">
         A custom execution layer for AI agents with runtime control, tool calling, workspace context, structured
@@ -30,7 +30,9 @@ useSeoMeta({
             'Tool Calling',
             'Artifacts',
             'Workspaces',
-            'Nuxt',
+            'Langchain',
+            'Langgraph',
+            'Langsmith'
           ]"
           :key="tech"
           class="rounded-full border border-neutral-200 px-3 py-1 text-sm text-neutral-700">
