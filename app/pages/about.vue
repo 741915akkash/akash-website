@@ -11,47 +11,62 @@ useSeoMeta({
 
     <h1 class="mt-3 text-4xl font-semibold tracking-tight">I like understanding how things work</h1>
 
-    <div class="mt-8 space-y-6 text-lg leading-8 text-neutral-900">
-      <p>I'm a Full-stack developer and startup builder focused on building products from idea through deployment.</p>
+    <div class="mt-8 space-y-6 text-md leading-8 text-neutral-900">
+      <p>I'm a full-stack developer and startup builder.</p>
+
+      <p>I work across frontend, backend, infrastructure, and AI systems.</p>
+
+      <p>I mainly use JavaScript/TypeScript, Node.js, Vue/Nuxt, PostgreSQL, LLMs, RAG, and automation.</p>
 
       <p>
-        I work across frontend, backend, infrastructure, and AI systems, particularly with JavaScript/TypeScript,
-        Node.js, Vue/Nuxt, PostgreSQL, LLMs, RAG, and automation.
+        I started a consulting business and built products for different problems. And learned lead generation, sales,
+        and copywriting along the way
       </p>
 
-      <p>
-        Over time, I've also learned a lot beyond engineering — lead generation, sales, copywriting, moving fast, and figuring out how
-        to get things done when there isn't a predefined process.
-      </p>
+      <p><strong>I take the problem and make it happen as fast as possible.</strong></p>
+
+      <p>interested in early-stage teams with high ownership.</p>
+
+      <p>I want to work closely with founders and users.</p>
 
       <p>
-        I started a consulting business and, through building products and solving different kinds of problems,
-        gradually developed have a highly technical mind — and i enjoy it.
-        I enjoy understanding how systems work.
+        <strong>I learn quickly, move fast, and turn problems into working systems.</strong>
       </p>
+    </div>
 
-      <p>
-        Today, I approach work with a simple bias:
-        <strong>take the problem and make it happen as fast as possible.</strong>
-      </p>
+    <div class="mt-12">
+      <h2 class="mt-3 text-4xl font-semibold tracking-tight">How I Learn</h2>
 
-      <p>
-        I'm also going deeper into AI — from agent systems and LLM applications to foundational concepts and algorithms
-        — because I want a comprehensive understanding of the technology, not just the ability to call an API. I learn
-        what I need as I build and go deeper where it matters.
-      </p>
+      <div class="mt-6 space-y-6 text-md leading-8 text-neutral-900">
+        <p>(developed naturally after reading dozens of books)</p>
 
-      <p>
-        I'm particularly interested in early-stage environments where engineers have significant ownership and work
-        closely with founders (learn from them) and users.
-      </p>
+        <p>download the pdf from libgen or anna archive</p>
 
-      <p>
-        <strong>
-          If you want someone who learns quickly, moves fast, and takes a problem from idea to working system, I'd like
-          to hear from you.
-        </strong>
-      </p>
+        <p>always have contents open in chrome sidebar</p>
+
+        <p>read some parts to get familiar (jump from chapter to chapter)</p>
+
+        <p>read the part which i need right now</p>
+
+        <p>use chatgpt when required</p>
+
+        <p>much faster than watching any video or course</p>
+      </div>
+    </div>
+    <div class="mt-12">
+      <h2 class="mt-3 text-4xl font-semibold tracking-tight">How I Work</h2>
+
+      <div class="mt-6 space-y-6 text-md leading-8 text-neutral-900">
+        <p>I work every day.</p>
+
+        <p>take break when needed or when overwhelmed</p>
+
+        <p>switch between JavaScript/TypeScript and Python depending on what the problem requires.</p>
+
+        <p>learn what I need while building.</p>
+
+        <p>go deeper when something is worth understanding.</p>
+      </div>
     </div>
 
     <div class="mt-12">

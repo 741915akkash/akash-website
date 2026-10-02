@@ -38,21 +38,19 @@ useSeoMeta({
 
     <!-- Hero -->
     <section class="mx-auto max-w-5xl px-6 pb-24 pt-24 sm:pt-32">
-      <div class="max-w-3xl">
-        <p class="text-sm font-medium uppercase tracking-widest text-red-800">
-          Full-stack developer · AI · Startup Builder
-        </p>
+      <div class="mx-auto max-w-3xl text-center">
+        <p class="text-sm font-medium uppercase tracking-widest text-red-800">AI Full-stack developer</p>
 
         <h1 class="mt-5 text-5xl font-semibold tracking-tight text-neutral-950 sm:text-6xl">
-          I build and ship AI-powered products end-to-end.
+          Your Startup's Next Hire
         </h1>
 
-        <p class="mt-7 max-w-2xl text-lg leading-8 text-neutral-700">
+        <p class="mx-auto mt-7 max-w-2xl text-lg leading-8 text-neutral-700">
           I work across frontend, backend, databases, infrastructure, and AI systems — turning ideas into working
           products.
         </p>
 
-        <div class="mt-9 flex flex-wrap gap-3">
+        <div class="mt-9 flex flex-wrap justify-center gap-3">
           <NuxtLink to="/projects" class="rounded-lg bg-[#8B1E1E] px-5 py-3 text-sm font-medium text-white">
             View Projects
           </NuxtLink>
@@ -70,7 +68,7 @@ useSeoMeta({
     <!-- What I Build -->
     <section class="border-y border-neutral-200">
       <div class="mx-auto max-w-5xl px-6 py-20">
-        <div class="max-w-2xl">
+        <div class="mx-auto text-center">
           <p class="text-sm font-medium uppercase tracking-widest text-red-800">What I build</p>
 
           <h2 class="mt-3 text-3xl font-semibold tracking-tight">From product idea to working system.</h2>
@@ -109,7 +107,7 @@ useSeoMeta({
     <!-- Technology -->
     <section>
       <div class="mx-auto max-w-5xl px-6 py-20">
-        <div class="max-w-2xl">
+        <div class="mx-auto max-w-2xl text-center">
           <p class="text-sm font-medium uppercase tracking-widest text-red-800">Technology</p>
 
           <h2 class="mt-3 text-3xl font-semibold tracking-tight">Comfortable across the stack.</h2>
@@ -120,20 +118,20 @@ useSeoMeta({
           </p>
         </div>
 
-        <div class="mt-10 space-y-4 text-sm">
+        <div class="mx-auto mt-10 max-w-3xl space-y-4 text-sm">
           <div class="flex gap-4">
             <span class="w-36 shrink-0 font-medium">Frontend</span>
-            <span class="text-neutral-700"> Nuxt.js/Vue · Next.js/React· Tailwind CSS · Axios </span>
+            <span class="text-neutral-700">Nuxt.js/Vue · Next.js/React · Tailwind CSS · Axios</span>
           </div>
 
           <div class="flex gap-4">
             <span class="w-36 shrink-0 font-medium">Backend</span>
-            <span class="text-neutral-700"> Node.js · Express.js · REST APIs </span>
+            <span class="text-neutral-700">Node.js · Express.js · REST APIs</span>
           </div>
 
           <div class="flex gap-4">
             <span class="w-36 shrink-0 font-medium">Database</span>
-            <span class="text-neutral-700"> PostgreSQL · Supabase </span>
+            <span class="text-neutral-700">PostgreSQL · Supabase</span>
           </div>
 
           <div class="flex gap-4">
@@ -145,7 +143,7 @@ useSeoMeta({
 
           <div class="flex gap-4">
             <span class="w-36 shrink-0 font-medium">Automation & Runtime</span>
-            <span class="text-neutral-700"> PM2 · RSS Pipelines · Background Workers </span>
+            <span class="text-neutral-700">PM2 · RSS Pipelines · Background Workers</span>
           </div>
 
           <div class="flex gap-4">
@@ -162,15 +160,11 @@ useSeoMeta({
     <section class="border-y border-neutral-200">
       <div class="mx-auto max-w-5xl px-6 py-20">
         <div class="flex items-end justify-between gap-6">
-          <div>
+          <div class="mx-auto text-center">
             <p class="text-sm font-medium uppercase tracking-widest text-red-800">Selected projects</p>
 
             <h2 class="mt-3 text-3xl font-semibold tracking-tight">Things I've actually built.</h2>
           </div>
-
-          <NuxtLink to="/projects" class="hidden text-sm font-medium text-neutral-700 hover:text-black sm:block">
-            View all →
-          </NuxtLink>
         </div>
 
         <div class="mt-12 grid gap-6 sm:grid-cols-2">
@@ -210,7 +204,7 @@ useSeoMeta({
     <!-- How I Work -->
     <section>
       <div class="mx-auto max-w-5xl px-6 py-20">
-        <div class="max-w-2xl">
+        <div class="mx-auto text-center">
           <p class="text-sm font-medium uppercase tracking-widest text-red-800">How I work</p>
 
           <h2 class="mt-3 text-3xl font-semibold tracking-tight">How I approach engineering.</h2>
@@ -268,9 +262,11 @@ useSeoMeta({
     <!-- Experience -->
     <section class="border-y border-neutral-200">
       <div class="mx-auto max-w-5xl px-6 py-20">
-        <p class="text-sm font-medium uppercase tracking-widest text-red-800">Experience</p>
+        <div class="mx-auto text-center">
+          <p class="text-sm font-medium uppercase tracking-widest text-red-800">Experience</p>
 
-        <h2 class="mt-3 text-3xl font-semibold tracking-tight">Where I've worked.</h2>
+          <h2 class="mt-3 text-3xl font-semibold tracking-tight">Where I've worked.</h2>
+        </div>
 
         <div class="mt-12 space-y-10">
           <ExperienceItem
