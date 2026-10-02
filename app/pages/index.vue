@@ -74,29 +74,31 @@ useSeoMeta({
           <h2 class="mt-3 text-3xl font-semibold tracking-tight">From product idea to working system.</h2>
         </div>
 
-        <div class="mt-12 grid gap-8 sm:grid-cols-2">
-          <div>
-            <h3 class="font-semibold">Full-Stack Products</h3>
-            <p class="mt-2 leading-7 text-neutral-700">Frontend, APIs, databases, product workflows, and deployment.</p>
+        <div class="mx-auto mt-12 grid max-w-4xl sm:grid-cols-2">
+          <div class="border-b border-neutral-200 px-6 py-8 sm:border-r">
+            <h3 class="text-center font-semibold">Full-Stack Products</h3>
+            <p class="mt-2 text-center leading-7 text-neutral-700">
+              Frontend, APIs, databases, product workflows, and deployment.
+            </p>
           </div>
 
-          <div>
-            <h3 class="font-semibold">AI Systems</h3>
-            <p class="mt-2 leading-7 text-neutral-700">
+          <div class="border-b border-neutral-200 px-6 py-8">
+            <h3 class="text-center font-semibold">AI Systems</h3>
+            <p class="mt-2 text-center leading-7 text-neutral-700">
               LLM integrations, embeddings, RAG, AI workflows, and automation.
             </p>
           </div>
 
-          <div>
-            <h3 class="font-semibold">Agent Systems</h3>
-            <p class="mt-2 leading-7 text-neutral-700">
+          <div class="border-b border-neutral-200 px-6 py-8 sm:border-b-0 sm:border-r">
+            <h3 class="text-center font-semibold">Agent Systems</h3>
+            <p class="mt-2 text-center leading-7 text-neutral-700">
               Tool calling, execution loops, context, persistence, and reusable agent infrastructure.
             </p>
           </div>
 
-          <div>
-            <h3 class="font-semibold">Automation</h3>
-            <p class="mt-2 leading-7 text-neutral-700">
+          <div class="px-6 py-8">
+            <h3 class="text-center font-semibold">Automation</h3>
+            <p class="mt-2 text-center leading-7 text-neutral-700">
               Background workers, scheduled workflows, integrations, and data-processing pipelines.
             </p>
           </div>
@@ -210,51 +212,76 @@ useSeoMeta({
           <h2 class="mt-3 text-3xl font-semibold tracking-tight">How I approach engineering.</h2>
         </div>
 
-        <div class="mt-12 grid gap-8 sm:grid-cols-2">
-          <div>
-            <h3 class="font-semibold">Independent Ownership</h3>
-            <p class="mt-2 leading-7 text-neutral-700">
-              I like owning problems from idea through implementation and deployment rather than working only on
-              isolated pieces.
-            </p>
+        <div class="mx-auto mt-12 max-w-3xl divide-y divide-neutral-200">
+          <div class="flex gap-6 py-6">
+            <span class="shrink-0 text-sm font-medium text-red-800">01</span>
+
+            <div>
+              <h3 class="font-semibold">Independent Ownership</h3>
+              <p class="mt-2 leading-7 text-neutral-700">
+                I like owning problems from idea through implementation and deployment rather than working only on
+                isolated pieces.
+              </p>
+            </div>
           </div>
 
-          <div>
-            <h3 class="font-semibold">Fast Learner</h3>
-            <p class="mt-2 leading-7 text-neutral-700">
-              When I encounter unfamiliar technology, I prefer building something real with it and learning through
-              implementation.
-            </p>
+          <div class="flex gap-6 py-6">
+            <span class="shrink-0 text-sm font-medium text-red-800">02</span>
+
+            <div>
+              <h3 class="font-semibold">Fast Learner</h3>
+              <p class="mt-2 leading-7 text-neutral-700">
+                When I encounter unfamiliar technology, I prefer building something real with it and learning through
+                implementation.
+              </p>
+            </div>
           </div>
 
-          <div>
-            <h3 class="font-semibold">Systems Thinking</h3>
-            <p class="mt-2 leading-7 text-neutral-700">
-              I think about how frontend, backend, data, infrastructure, and AI components work together as one system.
-            </p>
+          <div class="flex gap-6 py-6">
+            <span class="shrink-0 text-sm font-medium text-red-800">03</span>
+
+            <div>
+              <h3 class="font-semibold">Systems Thinking</h3>
+              <p class="mt-2 leading-7 text-neutral-700">
+                I think about how frontend, backend, data, infrastructure, and AI components work together as one
+                system.
+              </p>
+            </div>
           </div>
 
-          <div>
-            <h3 class="font-semibold">0→1 Product Development</h3>
-            <p class="mt-2 leading-7 text-neutral-700">
-              I bias toward getting a working product shipped, learning from it, and improving it rather than
-              over-planning the first version.
-            </p>
+          <div class="flex gap-6 py-6">
+            <span class="shrink-0 text-sm font-medium text-red-800">04</span>
+
+            <div>
+              <h3 class="font-semibold">0→1 Product Development</h3>
+              <p class="mt-2 leading-7 text-neutral-700">
+                I bias toward getting a working product shipped, learning from it, and improving it rather than
+                over-planning the first version.
+              </p>
+            </div>
           </div>
 
-          <div>
-            <h3 class="font-semibold">Problem Solver</h3>
-            <p class="mt-2 leading-7 text-neutral-700">
-              I enjoy breaking ambiguous problems into smaller systems and figuring out the implementation as I go.
-            </p>
+          <div class="flex gap-6 py-6">
+            <span class="shrink-0 text-sm font-medium text-red-800">05</span>
+
+            <div>
+              <h3 class="font-semibold">Problem Solver</h3>
+              <p class="mt-2 leading-7 text-neutral-700">
+                I enjoy breaking ambiguous problems into smaller systems and figuring out the implementation as I go.
+              </p>
+            </div>
           </div>
 
-          <div>
-            <h3 class="font-semibold">Shipping Mindset</h3>
-            <p class="mt-2 leading-7 text-neutral-700">
-              I'm comfortable researching, experimenting, debugging, and finding a path forward without needing every
-              step predefined.
-            </p>
+          <div class="flex gap-6 py-6">
+            <span class="shrink-0 text-sm font-medium text-red-800">06</span>
+
+            <div>
+              <h3 class="font-semibold">Shipping Mindset</h3>
+              <p class="mt-2 leading-7 text-neutral-700">
+                I'm comfortable researching, experimenting, debugging, and finding a path forward without needing every
+                step predefined.
+              </p>
+            </div>
           </div>
         </div>
       </div>
