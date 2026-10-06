@@ -8,39 +8,38 @@ useSeoMeta({
 <template>
   <div>
     <!-- Contact Strip -->
-
     <section class="border-b border-neutral-200">
-      <div
-        class="mx-auto grid max-w-5xl grid-cols-2 items-center justify-items-center gap-y-2 px-6 py-3 text-xs font-semibold sm:flex sm:justify-center sm:gap-10 sm:text-sm">
-        <a href="tel:+917419257564" class="text-neutral-700 transition hover:text-[#8B1E1E]"> +91 7419257564 </a>
+      <div class="mx-auto max-w-5xl px-6">
+        <div
+          class="grid grid-cols-2 items-center justify-items-center gap-y-2 py-3 text-xs font-semibold sm:flex sm:justify-center sm:gap-10 sm:text-sm">
+          <a href="tel:+917419257564" class="text-neutral-700 transition hover:text-[#8B1E1E]"> +91 7419257564 </a>
 
-        <a href="mailto:iakashsaini9@gmail.com" class="text-neutral-700 transition hover:text-[#8B1E1E]">
-          iakashsaini9@gmail.com
-        </a>
+          <a href="mailto:iakashsaini9@gmail.com" class="text-neutral-700 transition hover:text-[#8B1E1E]">
+            iakashsaini9@gmail.com
+          </a>
 
-        <a
-          href="https://www.linkedin.com/in/741915-akash-saini/"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="text-neutral-700 transition hover:text-[#8B1E1E]">
-          LinkedIn
-        </a>
+          <a
+            href="https://www.linkedin.com/in/741915-akash-saini/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="text-neutral-700 transition hover:text-[#8B1E1E]">
+            LinkedIn
+          </a>
 
-        <a
-          href="https://github.com/741915akkash/idea-validator"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="text-neutral-700 transition hover:text-[#8B1E1E]">
-          GitHub
-        </a>
+          <a
+            href="https://github.com/741915akkash/idea-validator"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="text-neutral-700 transition hover:text-[#8B1E1E]">
+            GitHub
+          </a>
+        </div>
       </div>
     </section>
 
     <!-- Hero -->
     <section class="mx-auto max-w-5xl px-6 pb-24 pt-24 sm:pt-32">
       <div class="mx-auto max-w-3xl text-center">
-        <p class="text-sm font-medium uppercase tracking-widest text-red-800">AI Full-stack developer</p>
-
         <h1 class="mt-5 text-5xl font-semibold tracking-tight text-neutral-950 sm:text-6xl">
           Your Startup's Next Hire
         </h1>
@@ -66,8 +65,8 @@ useSeoMeta({
     </section>
 
     <!-- What I Build -->
-    <section class="border-y border-neutral-200">
-      <div class="mx-auto max-w-5xl px-6 py-20">
+    <section>
+      <div class="mx-auto max-w-5xl border-y border-neutral-200 px-6 py-20">
         <div class="mx-auto text-center">
           <p class="text-sm font-medium uppercase tracking-widest text-red-800">What I build</p>
 
@@ -77,6 +76,7 @@ useSeoMeta({
         <div class="mx-auto mt-12 grid max-w-4xl sm:grid-cols-2">
           <div class="border-b border-neutral-200 px-6 py-8 sm:border-r">
             <h3 class="text-center font-semibold">Full-Stack Products</h3>
+
             <p class="mt-2 text-center leading-7 text-neutral-700">
               Frontend, APIs, databases, product workflows, and deployment.
             </p>
@@ -84,6 +84,7 @@ useSeoMeta({
 
           <div class="border-b border-neutral-200 px-6 py-8">
             <h3 class="text-center font-semibold">AI Systems</h3>
+
             <p class="mt-2 text-center leading-7 text-neutral-700">
               LLM integrations, embeddings, RAG, AI workflows, and automation.
             </p>
@@ -91,6 +92,7 @@ useSeoMeta({
 
           <div class="border-b border-neutral-200 px-6 py-8 sm:border-b-0 sm:border-r">
             <h3 class="text-center font-semibold">Agent Systems</h3>
+
             <p class="mt-2 text-center leading-7 text-neutral-700">
               Tool calling, execution loops, context, persistence, and reusable agent infrastructure.
             </p>
@@ -98,6 +100,7 @@ useSeoMeta({
 
           <div class="px-6 py-8">
             <h3 class="text-center font-semibold">Automation</h3>
+
             <p class="mt-2 text-center leading-7 text-neutral-700">
               Background workers, scheduled workflows, integrations, and data-processing pipelines.
             </p>
@@ -159,8 +162,8 @@ useSeoMeta({
     </section>
 
     <!-- Projects -->
-    <section class="border-y border-neutral-200">
-      <div class="mx-auto max-w-5xl px-6 py-20">
+    <section>
+      <div class="mx-auto max-w-5xl border-y border-neutral-200 px-6 py-20">
         <div class="flex items-end justify-between gap-6">
           <div class="mx-auto text-center">
             <p class="text-sm font-medium uppercase tracking-widest text-red-800">Selected projects</p>
@@ -218,6 +221,7 @@ useSeoMeta({
 
             <div>
               <h3 class="font-semibold">Independent Ownership</h3>
+
               <p class="mt-2 leading-7 text-neutral-700">
                 I like owning problems from idea through implementation and deployment rather than working only on
                 isolated pieces.
@@ -230,6 +234,7 @@ useSeoMeta({
 
             <div>
               <h3 class="font-semibold">Fast Learner</h3>
+
               <p class="mt-2 leading-7 text-neutral-700">
                 When I encounter unfamiliar technology, I prefer building something real with it and learning through
                 implementation.
@@ -242,6 +247,7 @@ useSeoMeta({
 
             <div>
               <h3 class="font-semibold">Systems Thinking</h3>
+
               <p class="mt-2 leading-7 text-neutral-700">
                 I think about how frontend, backend, data, infrastructure, and AI components work together as one
                 system.
@@ -254,6 +260,7 @@ useSeoMeta({
 
             <div>
               <h3 class="font-semibold">0→1 Product Development</h3>
+
               <p class="mt-2 leading-7 text-neutral-700">
                 I bias toward getting a working product shipped, learning from it, and improving it rather than
                 over-planning the first version.
@@ -266,6 +273,7 @@ useSeoMeta({
 
             <div>
               <h3 class="font-semibold">Problem Solver</h3>
+
               <p class="mt-2 leading-7 text-neutral-700">
                 I enjoy breaking ambiguous problems into smaller systems and figuring out the implementation as I go.
               </p>
@@ -277,6 +285,7 @@ useSeoMeta({
 
             <div>
               <h3 class="font-semibold">Shipping Mindset</h3>
+
               <p class="mt-2 leading-7 text-neutral-700">
                 I'm comfortable researching, experimenting, debugging, and finding a path forward without needing every
                 step predefined.
@@ -286,9 +295,10 @@ useSeoMeta({
         </div>
       </div>
     </section>
+
     <!-- Experience -->
-    <section class="border-y border-neutral-200">
-      <div class="mx-auto max-w-5xl px-6 py-20">
+    <section>
+      <div class="mx-auto max-w-5xl border-t border-neutral-200 px-6 py-20">
         <div class="mx-auto text-center">
           <p class="text-sm font-medium uppercase tracking-widest text-red-800">Experience</p>
 
