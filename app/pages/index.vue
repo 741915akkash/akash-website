@@ -41,7 +41,7 @@ useSeoMeta({
     <section class="mx-auto max-w-5xl px-6 pb-24 pt-24 sm:pt-32">
       <div class="mx-auto max-w-3xl text-center">
         <h1 class="mt-5 text-5xl font-semibold tracking-tight text-neutral-950 sm:text-6xl">
-          Your Startup's Next Hire
+          Self Starter on your team
         </h1>
 
         <p class="mx-auto mt-7 max-w-2xl text-lg leading-8 text-neutral-700">
