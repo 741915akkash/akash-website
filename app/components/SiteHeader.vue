@@ -16,6 +16,19 @@ const links = [
     type: 'download',
   },
 ];
+
+function openContact() {
+  const email = 'iakashsaini9@gmail.com';
+  const subject = "Let's work together";
+
+  if (window.innerWidth <= 768) {
+    window.location.href = `mailto:${email}?subject=${encodeURIComponent(subject)}`;
+  } else {
+    const gmailUrl = `https://mail.google.com/mail/?view=cm&fs=1&to=${encodeURIComponent(email)}&su=${encodeURIComponent(subject)}`;
+
+    window.open(gmailUrl, '_blank');
+  }
+}
 </script>
 
 <template>
@@ -39,11 +52,12 @@ const links = [
           </a>
         </template>
 
-        <a
-          href="mailto:iakashsaini9@gmail.com"
+        <button
+          type="button"
+          @click="openContact()"
           class="rounded-lg bg-[#8B1E1E] px-4 py-2 text-sm font-medium text-white transition hover:bg-[#721919]">
           Get in touch
-        </a>
+        </button>
       </div>
     </nav>
   </header>

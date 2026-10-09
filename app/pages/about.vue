@@ -3,6 +3,19 @@ useSeoMeta({
   title: 'About — Akash Saini',
   description: 'About Akash Saini, Full-stack developer and startup builder.',
 });
+
+function openContact() {
+  const email = 'iakashsaini9@gmail.com';
+  const subject = "Let's work together";
+
+  if (window.innerWidth <= 768) {
+    window.location.href = `mailto:${email}?subject=${encodeURIComponent(subject)}`;
+  } else {
+    const gmailUrl = `https://mail.google.com/mail/?view=cm&fs=1&to=${encodeURIComponent(email)}&su=${encodeURIComponent(subject)}`;
+
+    window.open(gmailUrl, '_blank');
+  }
+}
 </script>
 
 <template>
@@ -68,11 +81,23 @@ useSeoMeta({
         <p>go deeper when something is worth understanding.</p>
       </div>
     </div>
+  </section>
 
-    <div class="mt-12">
-      <NuxtLink to="/projects" class="text-sm font-medium transition hover:text-[#8B1E1E] hover:underline">
-        See what I've built →
-      </NuxtLink>
+  <!-- CTA -->
+  <section>
+    <div class="mx-auto max-w-5xl px-6 pt-10 pb-24">
+      <div class="rounded-2xl border border-neutral-200 bg-neutral-50 px-6 py-12 text-center sm:px-12">
+        <h2 class="text-3xl font-semibold tracking-tight">Worth your time? Let’s talk</h2>
+
+        <p class="mx-auto mt-4 text-xl max-w-xl leading-7 text-neutral-700">Send me a quick email.</p>
+
+        <button
+          type="button"
+          @click="openContact()"
+          class="mt-8 inline-flex rounded-lg bg-[#8B1E1E] px-6 py-3 text-sm font-medium text-white">
+          Get in touch
+        </button>
+      </div>
     </div>
   </section>
 </template>
