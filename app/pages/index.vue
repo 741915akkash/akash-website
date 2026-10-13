@@ -18,11 +18,6 @@ const faqs = [
       'I wanted to explore where my interests really were. It turned out I kept getting pulled toward engineering. I like going beyond surface-level answers, understanding how things work, and building a mental model of them.',
   },
   {
-    question: 'You’re a founder. Isn’t that unusual for a job applicant?',
-    answer:
-      'It is. I bring the intensity, ownership, and work ethic of a founder — while also being very comfortable getting into the details and building things myself.',
-  },
-  {
     question: 'If you’re a founder, why do you want a job?',
     answer:
       'To earn, learn, and work with great people. My venture isn’t generating enough revenue yet, and I also want to spend time around people I can learn from and build with.',
