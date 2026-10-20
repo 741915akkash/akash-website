@@ -116,7 +116,7 @@ function toggleFaq(index) {
 
     <!-- What I Build -->
     <section>
-      <div class="mx-auto max-w-5xl  px-6 py-20">
+      <div class="mx-auto max-w-5xl  px-6 py-15">
         <div class="mx-auto text-center">
           <p class="text-sm font-medium uppercase tracking-widest text-red-800">What I build</p>
 
@@ -161,7 +161,7 @@ function toggleFaq(index) {
 
     <!-- Technology -->
     <section>
-      <div class="mx-auto max-w-5xl px-6 py-20">
+      <div class="mx-auto max-w-5xl px-6 py-15">
         <div class="mx-auto max-w-2xl text-center">
           <p class="text-sm font-medium uppercase tracking-widest text-red-800">Technology</p>
 
@@ -181,7 +181,7 @@ function toggleFaq(index) {
 
           <div class="flex gap-4">
             <span class="w-36 shrink-0 font-medium">Backend</span>
-            <span class="text-neutral-700">Node.js · Express.js · REST APIs</span>
+            <span class="text-neutral-700">Node.js · Express.js · FastAPI(Python) · REST APIs</span>
           </div>
 
           <div class="flex gap-4">
@@ -192,7 +192,7 @@ function toggleFaq(index) {
           <div class="flex gap-4">
             <span class="w-36 shrink-0 font-medium">AI & Agent Systems</span>
             <span class="text-neutral-700">
-              OpenAI API · Ollama · Agent Loops · Tool Calling · Agent Memory · pgvector
+              Langchain · Langgraph · Langsmith · OpenAI API · Ollama · pgvector
             </span>
           </div>
 
@@ -213,7 +213,7 @@ function toggleFaq(index) {
 
     <!-- Projects -->
     <section>
-      <div class="mx-auto max-w-5xl px-6 py-20">
+      <div class="mx-auto max-w-5xl px-6 py-15">
         <div class="flex items-end justify-between gap-6">
           <div class="mx-auto text-center">
             <p class="text-sm font-medium uppercase tracking-widest text-red-800">Selected projects</p>
@@ -258,7 +258,7 @@ function toggleFaq(index) {
 
     <!-- How I Work -->
     <section>
-      <div class="mx-auto max-w-5xl px-6 py-20">
+      <div class="mx-auto max-w-5xl px-6 py-15">
         <div class="mx-auto text-center">
           <p class="text-sm font-medium uppercase tracking-widest text-red-800">How I work</p>
 
@@ -348,7 +348,7 @@ function toggleFaq(index) {
 
     <!-- Experience -->
     <section>
-      <div class="mx-auto max-w-5xl px-6 py-20">
+      <div class="mx-auto max-w-5xl px-6 py-15">
         <div class="mx-auto text-center">
           <p class="text-sm font-medium uppercase tracking-widest text-red-800">Experience</p>
 
@@ -373,7 +373,7 @@ function toggleFaq(index) {
 
     <!-- FAQ -->
     <section>
-      <div class="mx-auto max-w-5xl px-6 py-20">
+      <div class="mx-auto max-w-5xl px-6 py-15">
         <div class="mb-12">
           <p class="text-sm text-center font-medium uppercase tracking-widest text-red-800">Questions</p>
 
@@ -406,7 +406,7 @@ function toggleFaq(index) {
     <!-- CTA -->
     <section>
       <div class="mx-auto max-w-5xl px-6 pt-5 pb-24">
-        <div class="rounded-2xl border border-neutral-200 bg-neutral-50 px-6 py-12 text-center sm:px-12">
+        <div class="rounded-2xl border border-neutral-200 bg-neutral-50 px-6 py-15 text-center sm:px-12">
           <h2 class="text-3xl font-semibold tracking-tight">Building something worth joining?</h2>
 
           <p class="mx-auto mt-4 text-xl max-w-xl leading-7 text-neutral-700">Send me a quick email.</p>
