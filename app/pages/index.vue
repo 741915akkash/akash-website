@@ -116,7 +116,7 @@ function toggleFaq(index) {
 
     <!-- What I Build -->
     <section>
-      <div class="mx-auto max-w-5xl  px-6 py-15">
+      <div class="mx-auto max-w-5xl px-6 py-15">
         <div class="mx-auto text-center">
           <p class="text-sm font-medium uppercase tracking-widest text-red-800">What I build</p>
 
@@ -191,9 +191,7 @@ function toggleFaq(index) {
 
           <div class="flex gap-4">
             <span class="w-36 shrink-0 font-medium">AI & Agent Systems</span>
-            <span class="text-neutral-700">
-              Langchain · Langgraph · Langsmith · OpenAI API · Ollama · pgvector
-            </span>
+            <span class="text-neutral-700"> Langchain · Langgraph · Langsmith · OpenAI API · Ollama · pgvector </span>
           </div>
 
           <div class="flex gap-4">
@@ -229,19 +227,14 @@ function toggleFaq(index) {
             to="/projects/go-launch-scall" />
 
           <ProjectCard
-            title="AI Agent Platform"
-            description="A custom agent runtime for tool calling, execution loops, workspace context, persistent knowledge, and artifacts."
-            to="/projects/ai-agent-platform" />
+            title="CRM"
+            description="A full-stack CRM with contacts, pipelines, stages, custom fields, tasks, notes, activity, and outreach sequences."
+            to="/projects/crm" />
 
           <ProjectCard
             title="Embeddings + RAG"
             description="An AI retrieval workflow using embeddings and vector search to provide relevant context to AI systems."
             to="/projects/embedding+rag" />
-
-          <ProjectCard
-            title="CRM"
-            description="A full-stack CRM with contacts, pipelines, stages, custom fields, tasks, notes, activity, and outreach sequences."
-            to="/projects/crm" />
 
           <ProjectCard
             title="Reddit Lead Generation"
@@ -250,8 +243,18 @@ function toggleFaq(index) {
 
           <ProjectCard
             title="Next.js Dashboard"
-            description="A dashboard built with Next.js to apply an existing full-stack scallset to the React ecosystem."
+            description="A dashboard built with Next.js to apply an existing full-stack skillset to the React ecosystem."
             to="/projects/nextjs-dashboard" />
+
+          <CurrentProjectCard
+            title="Outreach CRM"
+            description="Developing a self-hostable CRM for contacts, pipelines, outreach, and secure AI agent integration."
+            to="/projects/outreach-crm-next" />
+
+          <CurrentProjectCard
+            title="AI Workflow Platform"
+            description="Building AI-powered workflows that turn natural-language goals into executable processes using agents and tools."
+            to="/projects/ai-workflow-platform" />
         </div>
       </div>
     </section>

@@ -20,33 +20,38 @@ useSeoMeta({
     <div class="mt-12 grid gap-6 sm:grid-cols-2">
       <ProjectCard
         title="Go Launch Scall"
-        description="A product platform built from idea through implementation."
+        description="A product platform I built from idea through implementation, including full-stack product workflows, AI, RAG, CRM, and automation."
         to="/projects/go-launch-scall" />
 
       <ProjectCard
-        title="AI Agent Platform"
-        description="A custom runtime for AI agents, tool calling, context, and execution."
-        to="/projects/ai-agent-platform" />
-
-      <ProjectCard
-        title="Embeddings + RAG"
-        description="Embeddings and retrieval infrastructure for AI workflows."
-        to="/projects/embedding+rag" />
-
-      <ProjectCard
         title="CRM"
-        description="A full-stack CRM with pipelines, tasks, activity, and outreach."
+        description="A full-stack CRM with contacts, pipelines, stages, custom fields, tasks, notes, activity, and outreach sequences."
         to="/projects/crm" />
 
       <ProjectCard
+        title="Embeddings + RAG"
+        description="An AI retrieval workflow using embeddings and vector search to provide relevant context to AI systems."
+        to="/projects/embedding+rag" />
+
+      <ProjectCard
         title="Reddit Lead Generation"
-        description="Automated Reddit ingestion, LLM scoring, and lead analysis."
+        description="An automated pipeline from Reddit ingestion through LLM scoring, lead analysis, and dashboard presentation."
         to="/projects/reddit-lead-generation" />
 
       <ProjectCard
         title="Next.js Dashboard"
-        description="A dashboard built to expand into the React and Next.js ecosystem."
+        description="A dashboard built with Next.js to apply an existing full-stack skillset to the React ecosystem."
         to="/projects/nextjs-dashboard" />
+
+      <CurrentProjectCard
+        title="Outreach CRM"
+        description="Developing a self-hostable CRM for contacts, pipelines, outreach, and secure AI agent integration."
+        to="/projects/outreach-crm-next" />
+
+      <CurrentProjectCard
+        title="AI Workflow Platform"
+        description="Building AI-powered workflows that turn natural-language goals into executable processes using agents and tools."
+        to="/projects/ai-workflow-platform" />
     </div>
   </section>
 </template>

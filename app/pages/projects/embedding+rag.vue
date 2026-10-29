@@ -43,7 +43,7 @@ useSeoMeta({
           href="https://github.com/741915akkash/idea-validator/tree/main/server/services/interviewEngine"
           target="_blank"
           rel="noopener noreferrer"
-          class="inline-flex items-center rounded-lg border border-neutral-300 px-4 py-2.5 text-sm font-medium transition hover:border-red-900">
+          class="inline-flex items-center rounded-lg bg-[#8B1E1E] px-4 py-2.5 text-sm font-medium text-white">
           GitHub Code ↗
         </a>
       </div>
