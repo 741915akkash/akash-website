@@ -375,7 +375,7 @@ function toggleFaq(index) {
     </section>
 
     <!-- FAQ -->
-    <section>
+    <!-- <section>
       <div class="mx-auto max-w-5xl px-6 py-15">
         <div class="mb-12">
           <p class="text-sm text-center font-medium uppercase tracking-widest text-red-800">Questions</p>
@@ -404,7 +404,7 @@ function toggleFaq(index) {
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <!-- CTA -->
     <section>
